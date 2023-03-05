@@ -21,6 +21,7 @@ body{
     margin-right: 10%;
     max-width: 900px;
     padding-bottom: 30px;
+    padding-top: 30px;
 
 }
 
@@ -45,6 +46,7 @@ body{
 .heading-section p {
     margin-bottom: 30px;
 }
+
 
 .center-text {
     text-align: center;
@@ -140,6 +142,14 @@ body{
     text-align: center;
     list-style-type: none;
 }
+.personal-links {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
 
 @media only screen and (min-width: 768px) {
     .profile-section {
@@ -166,8 +176,12 @@ body{
         max-width: 500px;
     }
     .heading-section h3,.heading-section li{
-        margin-left: 25px;
+        /* margin-left: 25px; */
         text-align: left;
+    }
+
+    .heading-section h3 {
+        margin-top: 30px;
     }
 
     
