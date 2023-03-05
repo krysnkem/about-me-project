@@ -1,0 +1,183 @@
+:root {
+    --dark-color: #21243D;
+    --dark-blue: #142850;
+    --required-blue: #EDF7FA;
+    --light-blue: #8695A4;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: var(--dark-color);
+    font-family: 'Heebo', sans-serif;
+}
+
+.heading-section{
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 900px;
+    padding-bottom: 30px;
+
+}
+
+.heading-section img {
+    border-radius: 50%;
+    margin: 30px auto;
+
+}
+.profile-image-container{
+    margin: auto;
+    width: max-content;
+}
+.intro-heading {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 34px;
+    margin-bottom: 40px;
+
+   
+}
+
+.heading-section p {
+    margin-bottom: 30px;
+}
+
+.center-text {
+    text-align: center;
+}
+.light-blue-color {
+    color: var(--light-blue);
+}
+
+.experience-section {
+    background-color: var(--required-blue);
+    padding-top: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.experience-card, .project-card {
+    background-color: white;
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto 0 auto;
+    border-radius: 4px;
+    padding: 30px 20px 30px 20px;
+    margin-top: 20px;
+}
+
+.project-card {
+    background-color: var(--required-blue);
+}
+
+.project-card h3 {
+    margin-top: 10px;
+}
+
+.date-and-company,  .project-year-and-stack{
+    width: auto;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.divider {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+
+
+.project-year{
+    background-color: var(--dark-blue);
+    color: white;
+    padding: 2px 10px;
+    border-radius: 15px;
+    margin-right: 10px;
+
+}
+
+.me-and-friends-section {
+    margin: auto;
+    max-width: 980px;
+    text-align: center;
+}
+.me-and-friends-section h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.friend-card {
+    display: inline-block;
+    width: min-content;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.friend-card img {
+    width: 200px;
+    border-radius: 5px;
+}
+.button-section button {
+    background-color: var(--dark-blue);
+    padding: 20px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.button-section {
+    text-align: center;
+}
+
+.heading-section h3, .heading-section li{
+    text-align: center;
+    list-style-type: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .profile-section {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 0px 20px 0px 20px;
+    
+    }
+    .heading-section {
+        margin: auto;
+    }
+
+    .intro-heading, .about-text  {
+        text-align: left;
+    }
+    .profile-image-container {
+        margin-right: 0px;
+    }
+
+    #about-text {
+        margin: 0;
+    }
+    .heading-and-about {
+        max-width: 500px;
+    }
+    .heading-section h3,.heading-section li{
+        margin-left: 25px;
+        text-align: left;
+    }
+
+    
+     
+}
+
+
+
+
+
+
+
+
